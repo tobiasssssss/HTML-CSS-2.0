@@ -1,0 +1,142 @@
+:root {
+  --nav_link_kleur: red;
+  --achtergrond_kleur_nav: white;
+  --achtergrond_kleur_header: yellow;
+  --achtergrond_kleur_body: #DF111A;
+  --achtergrond_kleur_a: white;
+  --achtergrond_kleur_a_hover: orange;
+  --border_kleur_a: #DF111A;
+
+  --text_kleur: white;
+
+  --img_border_kleur: white;
+
+  --randkleur_tabel: white;
+  --achtergrond_kleur_vakjes: #DF111A;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  min-height: 100vh;
+  background-image: url(https://www.icolorpalette.com/wp-content/themes/icolorpalette-child/solid.php?c=df111a);
+  font-family: sans-serif;
+}
+
+#body2 {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+
+  background-color: var(--achtergrond_kleur_body);
+}
+
+header {
+  text-align: center;
+  min-height: 10vh;
+
+  background-color: var(--achtergrond_kleur_header);
+}
+
+article {
+  text-align: center;
+  color: var(--text_kleur);
+  margin: 10px;
+}
+
+article > h1 {
+  font-size: 50px;
+  color: var(--text_kleur);
+  display: inline-block;
+  position: relative;
+  left: -21px;
+  margin: 5px;
+
+}
+article > h2 {
+  font-size: 35px;
+  color: var(--text_kleur);
+  margin: 5px;
+}
+article > h3 {
+  font-size: 25px;
+  color: var(--text_kleur);
+  margin: 5px;
+}
+article > p {
+  font-size: 15px;
+  color: var(--text_kleur);
+  text-align: center;
+  padding-left: 30px;
+  width: 70%;
+}
+th, td {
+
+  border:solid 3px var(--randkleur_tabel);
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--achtergrond_kleur_vakjes);
+}
+table {
+
+  display:inline;
+}
+tbody {
+background-color: var(--randkleur_tabel);
+}
+caption {
+  margin-top: 30px;
+  border:solid 5px var(--randkleur_tabel);
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--achtergrond_kleur_vakjes);
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+article > p > img {
+  float: right;
+  border: solid 5px var(--img_border_kleur);
+
+}
+article > img {
+  float: center;
+  margin: 30px;
+}
+article > p > video {
+  float: right;
+  border: solid 5px var(--img_border_kleur);
+}
+article > p > a {
+  color: var(--text_kleur) !important;
+}
+
+#open_nav{
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.center {
+  float: center;
+  text-align: center;
+}
+#Jacobus {
+  margin: 10px;
+}
+#Mirjam {
+  margin: 10px;
+}
